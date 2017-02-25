@@ -1,10 +1,10 @@
 # Esp32Prowl_Thing
-Esp32 idf-sdk Prowl IOS notification / deep sleep demo.
+Esp32 idf-sdk Prowl IOS notification / deep sleep demo. (Current consumption down to 2mA)
 
 Sends VBat via Prowl notification, blink and go to deepsleep.
 Push Button (or GPIO 0..) to wake and restart.
 
-On a Sparfun Esp32 Thing board,
+On a Sparkfun Esp32 Thing board,
 make a voltage divider: 4.1V->3.3V
 (ADC pin Vmax= 3.3V ! Be carefull!)
 add a 100K resistor between GND and Pin 35 
