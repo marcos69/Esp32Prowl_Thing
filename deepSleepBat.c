@@ -45,6 +45,13 @@ const int CONNECTED_BIT = BIT0;
 //#define WEB_URL "/publicapi/add"
 
 
+  // For Prowl, go to
+  //   https://www.prowlapp.com/api_settings.php
+  // to create an API key.
+  // If you don't, the server will return a 401 error code.
+
+// BIG WARNING: DO NOT USE SPACES or %20 in the followin #define's /return 505 error code!!! 
+
 #define APIKEY "****APIKEY*****"
 #define APPNAME "ESP32ulpSleeper"
 #define EVENT "Tests"
